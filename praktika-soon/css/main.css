@@ -1,0 +1,82 @@
+header {
+    display: inline-block;
+    position: relative;
+    background-color: azure;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    .top-window {
+        display: inline-block;
+        width: 800px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+        
+
+    }
+        .logo {
+            display: inline-block; 
+            margin-bottom: 30px;
+            width: 100%;
+            
+        }
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 60px;
+            font-weight: 1800;
+            margin-bottom: 20px;
+        }
+        p {
+           color: rgb(97, 97, 97); 
+           font-size: 20px;
+           margin-bottom: 20px;
+           width: 100%;
+            text-align: center;
+        }
+        .countdown {
+            margin-bottom: 20px;
+            color:white;
+            width: 100%;
+            text-align: center;
+        }
+        form {
+
+            margin-bottom: 20px;
+            
+           
+            
+        }
+        label{
+            
+            color:white;
+        }
+        input{
+            background-color: transparent;
+            line-height: 30px;
+            border: none;
+            border-bottom:solid 2px rgb(255, 255, 255); 
+            width: 300px;
+            margin-left: calc( (800px - 300px) / 2);
+        }
+        .subscribe {
+            background-color: #e91e63;
+            width: 150px;
+            margin-left: calc( (800px - 150px) / 2);
+            padding: 10px;
+            color: white;
+            
+        
+        
+        }
+        .subscribe:hover {
+            box-shadow: 0px 1px 8px black;
+        }
+
